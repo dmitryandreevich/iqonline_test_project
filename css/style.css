@@ -1,0 +1,256 @@
+*{
+  font-family: Arial;
+}
+
+.site-wrapper{
+    min-height: 100%;
+}
+
+/* Header start */
+
+header{
+    max-height: 100px;
+}
+
+header *{
+    display: inline-block;
+}
+
+header > .logo-wrapper{
+    margin-top: 12px;
+}
+
+header > .phones-wrapper{
+    float: right;
+    color: #eb5017;
+    font-size: 18px;
+    margin: 40px 22px 0 0;
+}
+
+header .tel{
+    font-family: Europe;
+}
+
+header > .phones-wrapper .tel{
+    display: block;
+}
+/* Header end */
+
+/* Site navigation start */
+
+nav.site-navigation {
+    margin: 20px 13px;
+}
+nav ul{
+    list-style: none;
+    font-size: 0;
+
+}
+nav ul li{
+    font-size: 14px;
+    display: inline-block;
+}
+nav.site-navigation ul li{
+    padding: 15px 60px;
+    border-right: 1px solid #eb5017;
+}
+
+nav.site-navigation ul li:last-child{
+    border: none;
+}
+
+nav.site-navigation{
+    background-color: #231f20;
+}
+nav.site-navigation a{
+    color: white;
+    text-decoration: none;
+}
+nav.site-navigation li:hover{
+    background-color: #eb5017;
+}
+
+/* Site navigation start */
+
+/* Bread crumbs start */
+.bread-crumbs ul{
+    padding-left: 35px;
+}
+
+.bread-crumbs ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 12px;
+}
+.bread-crumbs a{
+    color: black;
+    text-decoration: none;
+}
+
+.bread-crumbs ul li:not(:last-child) a{
+    text-decoration: underline;
+}
+
+.bread-crumbs ul li:not(:first-child):before {
+    content:  "-";
+    position: relative;
+    left:     -3px;
+}
+
+/* Bread crumbs end */
+
+main{
+    padding: 0 15px;
+}
+
+/* Footer start */
+
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 55px;
+    background-color: #231f20;
+    display: block;
+    margin-left: 13px;
+    width: 96.9%;
+}
+
+footer nav.footer-navigation{
+    font-size: 12px;
+    margin: 12px 0 20px 60px;
+}
+
+footer nav.footer-navigation ul li{
+    margin-right: 28px;
+}
+
+footer a{
+    color: white;
+    text-decoration: underline;
+}
+
+/* Footer start */
+
+/* Calculator start */
+
+.calculator-wrapper{
+    background-color: #dfdfdf;
+    margin-left: 20px;
+    padding-left: 20px;
+    max-width: 700px;
+    max-width: 700px;
+    max-height: 400px;
+    display: block;
+    height: 378px;
+}
+
+.calculator-wrapper .title{
+    color: #eb5017;
+    font-size: 30px;
+    margin: 0px 380px 20px 98px;
+    display:block;
+
+    padding-top: 20px;
+}
+.calculator-wrapper .field input[type='text'],
+.calculator-wrapper .field input[type='number'],
+.calculator-wrapper .field select{
+    width: 104px;
+}
+
+.calculator-wrapper .field span{
+    padding-right: 27px;
+}
+
+.calculator-wrapper .field{
+    clear: both;
+    float: right;
+    margin-bottom: 26px;
+}
+
+.calculator-wrapper .left-section{
+    float: left;
+    width: 340px;
+}
+
+.calculator-wrapper .calculate-field{
+    float: none;
+    padding-top: 23px;
+}
+
+.calculator-wrapper .calculate-field #calculate{
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.19), inset 0 0 2px rgba(255, 255, 190, 0.52);
+    border: 1px solid #c3c4c4;
+    background-image: linear-gradient(to top, #7cc400 0%, #aff300 100%);
+    color: #395306;
+    font-weight: bold;
+    padding: 13px 18px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.result-wrapper{
+    display: inline-block;
+}
+
+.result-wrapper .result-text{
+    padding-left: 23px;
+    color: #395306;
+    font-weight: bold;
+}
+
+.right-section{
+    float: right;
+    margin-right: 30px;
+}
+/* Calculator end */
+
+
+/* Slider start */
+#slider-amountOfDeposit,
+#slider-amountOfDeposit_replenish{
+    width: 270px;
+    height: 8px;
+    background-color: #1e1f22;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.19), inset 0 0 2px rgba(255, 255, 220, 0.52);
+
+
+}
+#slider-amountOfDeposit{
+    margin-top: 55px;
+}
+#slider-amountOfDeposit_replenish{
+    margin-top: 127px;
+}
+.slider-wrapper .min,
+.slider-wrapper .max{
+    font: italic 10px Verdana;
+    color: #676767;
+    margin-top: 11px;
+}
+.slider-wrapper .min{
+    float: left;
+}
+.slider-wrapper .max{
+    float: right;
+}
+#custom-handle-slider,
+#custom-handle-slider_replenish{
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    margin-top: 4px;
+}
+#custom-handle-slider:active,
+#custom-handle-slider_replenish:active{
+    background-color: white;
+    border: 1px solid #395306;
+}
+#slider-amountOfDeposit .ui-slider-range,
+#slider-amountOfDeposit_replenish .ui-slider-range{
+    background: #89ae35;
+    height: 4px;
+    margin-top: 2px;
+}
+/* Slider end */
