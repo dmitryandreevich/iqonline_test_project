@@ -40,7 +40,6 @@ $(document).ready(function () {
        let amountReplenish = $('#input-amountOfDeposit_replenish').val();
 
        if(summn >= 1000 && summn <= 3000000) {
-           if (refill == 'true' && amountReplenish >= 1000 && amountReplenish <= 3000000) {
                $.post('/app/calc.php', {
                    summn: summn,
                    month: month,
@@ -54,9 +53,7 @@ $(document).ready(function () {
                        $('#result').text(response + ' руб.');
 
                });
-           } else
-               $('#result').text(response + ' руб.');
        }else
-           $('#result').text(response + ' руб.');
+           $('#result').text('Ошибка!');
     });
 });

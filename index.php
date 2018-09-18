@@ -7,9 +7,6 @@
     <link rel="stylesheet" href="css/jquery-ui.min.css">
 </head>
 <body>
-    <!--
-        menu and footer на уровень лого
-    -->
     <div class="site-wrapper">
         <header>
 
